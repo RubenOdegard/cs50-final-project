@@ -42,10 +42,10 @@ export default function Projects() {
                   for snippets and snacks.
                 </p>
 
-                <p className="text-sm pt-0 mt-2">
+                <p className="text-sm pt-0 mt-4 md:mt-2">
                   Click <b>show more</b>{" "}
-                  on seperate projects to display more in dept information about
-                  the selected project.
+                  to open a modal and display more in dept information about a
+                  project.
                 </p>
               </div>
             </div>
