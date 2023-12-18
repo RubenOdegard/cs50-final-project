@@ -55,7 +55,7 @@ const Nav = () => {
             <Image
               src="/icon-large.png"
               alt="logo"
-              className="transition-all duration-200 ease-in-out invert-0 dark:invert"
+              className="transition-all duration-200 ease-in-out"
               height={scrollPosition > 0 ? 24 : 36}
               width={scrollPosition > 0 ? 24 : 36}
               priority
