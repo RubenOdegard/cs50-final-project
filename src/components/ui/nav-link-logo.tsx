@@ -29,7 +29,7 @@ export default function NavLinkLogo(
       href={href}
       {...props}
       className={cn(className, {
-        "font-extrabold underline text-foreground": ariaCurrent === "page",
+        "font-extrabold text-foreground": ariaCurrent === "page",
         "font-extrabold no-underline text-foreground": ariaCurrent !== "page",
       }, "hover:text-foreground transition-colors duration-200 ease-in-out")}
       aria-current={ariaCurrent as "page"}

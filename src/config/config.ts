@@ -339,9 +339,10 @@ export const projects = [
     year: "2023",
     content: "",
     hidden: false,
-    image: "",
-    link: "https://www.github.com/rubenodegard",
-    live: "none",
+    image:
+      "https://camo.githubusercontent.com/cb23390b599bf9aac2d21eee3d90ab3a159a5b1364456680f0f32f05d2f98ab0/68747470733a2f2f6763646e622e706272642e636f2f696d616765732f7a6d6339796a4e4e427433522e706e673f6f3d31",
+    link: "https://github.com/RubenOdegard/cs50-final-project",
+    live: "https://cs50-final-project-umber.vercel.app/",
     tags: ["NextJS", "Typescript", "TailwindCSS"],
     showcase: {
       introduction: [
@@ -372,9 +373,9 @@ export const projects = [
         "NextJS",
         "Typescript",
         "TailwindCSS",
-        "Docker",
-        "PostgreSQL",
-        "Planetscale",
+        "ReactJS",
+        "Radix UI",
+        "Geist",
       ],
       contentSection: [
         {
@@ -383,7 +384,8 @@ export const projects = [
             "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
             "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
           ],
-          image: "",
+          image:
+            "https://camo.githubusercontent.com/b38df7ba77d04b74a7214312958464c6490b589203d33375eff765d573c791e6/68747470733a2f2f6763646e622e706272642e636f2f696d616765732f396744766135314d376b61522e706e673f6f3d31",
         },
         {
           title: "Activities",
@@ -392,7 +394,8 @@ export const projects = [
             "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
           ],
 
-          image: "",
+          image:
+            "https://camo.githubusercontent.com/58c6c3e36b5f1b71faf46f65d7436df07fe06c136649f2969163457835c5c4a5/68747470733a2f2f6763646e622e706272642e636f2f696d616765732f743253434a4a65626868674a2e706e673f6f3d31",
         },
         {
           title: "Certifications",
@@ -401,7 +404,8 @@ export const projects = [
             "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
           ],
 
-          image: "",
+          image:
+            "https://camo.githubusercontent.com/d1deeb9206d2c21b916dc0f03954310a52010b56477ecece35c7d56ac7053d57/68747470733a2f2f6763646e622e706272642e636f2f696d616765732f7559754a5677354d556349782e706e673f6f3d31",
         },
       ],
     },

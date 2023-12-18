@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 // TODO: Disable nav scroll size on mobile.
 // TODO: Fill out project 1 information on project page.
 // TODO: Add information to github and live view links.
+// TODO: Fix crop on project images, there is padding on the actual .png files
 
 export default function Home() {
   const sectionClasses = "w-full prose dark:prose-invert lg:prose-lg";

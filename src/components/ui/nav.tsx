@@ -48,16 +48,21 @@ const Nav = () => {
             scrollPosition > 0 ? "text-sm" : "text-xl"
           } transition-all duration-200 ease-in-out`}
         >
-          <NavLinkLogo href="/" className="flex items-center gap-1">
+          <NavLinkLogo
+            href="/"
+            className="flex items-center gap-1 no-underline"
+          >
             <Image
               src="/icon-large.png"
               alt="logo"
-              className="transition-all duration-200 ease-in-out "
+              className="transition-all duration-200 ease-in-out invert-0 dark:invert"
               height={scrollPosition > 0 ? 24 : 36}
               width={scrollPosition > 0 ? 24 : 36}
               priority
             />
-            <span className="hidden">Ruben Odegard</span>
+            <span className="text-sm ml-2">
+              RBY
+            </span>
           </NavLinkLogo>
         </span>
 

@@ -56,8 +56,8 @@ export default function ShowProjectDetails({ data }: ShowProjectDetailsProps) {
             </div>
             <div className="col-span-6 lg:col-span-3 order-first lg:order-last w-full relative">
               <Image
-                src="/images/project-2.png"
-                alt="project 1"
+                src={data.image}
+                alt="thumbnail"
                 height={1920}
                 width={1080}
                 layout=""
@@ -115,7 +115,7 @@ export default function ShowProjectDetails({ data }: ShowProjectDetailsProps) {
                         <div className="inset-0 hidden dark:inline-block absolute bg-blue-950/20 blur-3xl -z-10" />
                         {/* render alt from project config */}
                         <Image
-                          src="/images/project-2.png"
+                          src={content.image}
                           alt="project image"
                           width={1920}
                           height={1080}
@@ -162,7 +162,7 @@ export default function ShowProjectDetails({ data }: ShowProjectDetailsProps) {
                         {/* background blur for image, can be made into component because it's used multiple times over the project */}
                         <div className="inset-0 hidden dark:inline-block absolute bg-blue-950/20 blur-3xl -z-10" />
                         <Image
-                          src="/images/project-2.png"
+                          src={content.image}
                           alt="project image"
                           width={1920}
                           height={1080}
