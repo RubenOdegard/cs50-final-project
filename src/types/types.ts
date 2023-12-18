@@ -1,0 +1,71 @@
+{
+  /*
+export type TProject = {
+  title: string;
+  desc: string;
+  year: string;
+  content: string;
+  hidden: boolean;
+  image: string;
+  link: string;
+  tags: string[];
+};
+  */
+}
+
+export type TProject = {
+  title: string;
+  desc: string;
+  year: string;
+  content: string;
+  hidden: boolean;
+  image: string;
+  live: string;
+  link: string;
+  tags: string[];
+  showcase: {
+    introduction: string[];
+    desc: string[];
+    mainSection: {
+      title: string;
+      text: string[]; // Change from string to string[]
+    };
+    longSection: {
+      title: string;
+      text: string[];
+    };
+    tags: string[];
+    contentSection: {
+      title: string; // Added title property
+      text: string[];
+      image: string;
+    }[];
+  };
+};
+
+export type TCertification = {
+  title: string;
+  status: number;
+  expandable?: number;
+  school?: number;
+  link: string;
+  cert?: string;
+  place: string;
+  type: string;
+  startDate: string;
+  endDate: string;
+  desc: string;
+  topics: string[];
+  tags: string[];
+};
+
+export type TActivity = {
+  id: number;
+  title: string;
+  imageUrl: string;
+  comment: string;
+  place: string;
+  type: string;
+  startDate: string;
+  endDate: string;
+};
