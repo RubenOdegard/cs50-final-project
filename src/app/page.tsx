@@ -6,8 +6,6 @@ import ShowPageHero from "@/components/show-page-hero";
 import ShowProjects from "@/components/show-projects";
 import { cn } from "@/lib/utils";
 
-// TODO: Complete certification info and links
-// TODO: Smaller text on badges on mobile
 // TODO: Disable nav scroll size on mobile.
 // TODO: Fill out project 1 information on project page.
 // TODO: Add information to github and live view links.
