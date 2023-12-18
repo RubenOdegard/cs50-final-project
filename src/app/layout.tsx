@@ -10,7 +10,7 @@ import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
+  metadataBase: new URL("https://cs50-final-project-umber.vercel.app"),
   openGraph: {
     images: "/opengraph-image.png",
   },
