@@ -18,7 +18,8 @@ const Nav = () => {
 
   useEffect(() => {
     const updatePosition = () => {
-      setScrollPosition(window.scrollY);
+      // temp disable
+      // setScrollPosition(window.scrollY);
     };
 
     window.addEventListener("scroll", updatePosition);
