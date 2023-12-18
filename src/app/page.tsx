@@ -6,10 +6,10 @@ import ShowPageHero from "@/components/show-page-hero";
 import ShowProjects from "@/components/show-projects";
 import { cn } from "@/lib/utils";
 
-// TODO: Disable nav scroll size on mobile.
 // TODO: Fill out project 1 information on project page.
-// TODO: Add information to github and live view links.
 // TODO: Fix crop on project images, there is padding on the actual .png files
+// TODO: Add clickable links to Certifications
+// TODO: Add clickable links to Activities
 
 export default function Home() {
   const sectionClasses = "w-full prose dark:prose-invert lg:prose-lg";

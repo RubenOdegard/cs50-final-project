@@ -350,23 +350,19 @@ export const projects = [
       ],
       desc: [
         "For the final project the requirements were simple, create a bigger project using technologies of own choosing.",
-        "I immediately thought about creating a developer portfolio, as it is a platform I'm going to be using going forward stepping into a new career field.",
+        "I immediately thought about creating a developer portfolio, as it is a platform I'm going to be using going forward while trying to step in to a new career field.",
       ],
       mainSection: {
-        title: "Main section",
+        title: "CS50x - Online Course",
         text: [
           "Selecting the technologies for this project ment going with something that was already familiar to me, even before starting CS50x.",
           "I have previous experience with React and Next, and went with Tailwind for styling because of the speed of development. On the Github page for this project I go into more detail on my thought process both pre and post build.",
         ],
       },
       longSection: {
-        title: "Long section",
+        title: "SEO and Accessibility",
         text: [
-          "111Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
-          "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
-          "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
-          "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
-          "222Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
+          "Ensured correct page structure, semantic HTML, dynamic metadata, clean and descriptive URLs, responsive design, image optimization, Open Graph Image, XML Sitemap, and implemented a Robots.txt file for effective site crawling. Website can be navigated with keyboard.",
         ],
       },
       tags: [
@@ -381,8 +377,7 @@ export const projects = [
         {
           title: "Projects",
           text: [
-            "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
-            "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
+            "A page for a collection of projects worth showcasing. Github and live preview links and tags. Expandable for more detailed information.",
           ],
           image:
             "https://camo.githubusercontent.com/b38df7ba77d04b74a7214312958464c6490b589203d33375eff765d573c791e6/68747470733a2f2f6763646e622e706272642e636f2f696d616765732f396744766135314d376b61522e706e673f6f3d31",
@@ -390,8 +385,7 @@ export const projects = [
         {
           title: "Activities",
           text: [
-            "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
-            "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
+            "A page for showing current, planned and already completed activities. Conditionally rendering status and fomatting text to more readable dates.",
           ],
 
           image:
@@ -400,8 +394,7 @@ export const projects = [
         {
           title: "Certifications",
           text: [
-            "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
-            "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim Lorem ipsum dolor sit amet, qui minim labore adipisicing mini.",
+            "A page for showing current, planned and already completed certifications. Conditionally rendering status and fomatting text to more readable dates.",
           ],
 
           image:
