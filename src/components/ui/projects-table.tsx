@@ -26,7 +26,7 @@ const ProjectsTable = () => {
               <TableHead className="hidden lg:table-cell">Desc</TableHead>
               <TableHead>Source</TableHead>
               <TableHead className="hidden lg:table-cell">Year</TableHead>
-              <TableHead>Tags</TableHead>
+              <TableHead className="hidden lg:table-cell">Tags</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -61,7 +61,7 @@ const ProjectsTable = () => {
                     <TableCell className="hidden lg:table-cell">
                       {project.year}
                     </TableCell>
-                    <TableCell>
+                    <TableCell className="hidden lg:table-cell">
                       <div className="flex gap-1.5">
                         {project.tags.map((badge) => {
                           return <Badge key={badge + 1}>{badge}</Badge>;
