@@ -6,7 +6,7 @@
 
 ---
 
-[View hosted version - not updated post submission](https://cs50-final-project-qqnjfuyac-rubenodegard.vercel.app/)
+[View hosted version - not updated post submission](cs50-final-project-umber.vercel.app)
 
 > A maintained verison of this website will be hosted on 3 domains post
 > submission.\
