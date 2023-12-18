@@ -233,8 +233,8 @@ Now, you can either look at the version of this website the moment is was
 submitted, or you can view the live version which is subject to updates and
 revisions.
 
-Submission: [view website](replace)\
-Live: [view live website](replace)
+Submission: [view website](https://cs50-final-project-umber.vercel.app)\
+Live: [view live website](/)
 
 ---
 
