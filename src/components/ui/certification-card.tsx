@@ -44,7 +44,6 @@ export default function CertificationCard(
   };
 
   // Fix config.json to include the right texta and format
-  // Fix gap between divider and buttons
   // Add a tooltip on TBD.
 
   return (
@@ -54,8 +53,8 @@ export default function CertificationCard(
           <div className="flex flex-col w-full">
             <div className="flex justify-between gap-x-4 relative">
               <div className="py-0.5 text-xs md:text-base leading-5">
-                <span className="font-semibold flex gap-2 mt-0.5 sm:mt-0 items-center tracking-tight text-foreground">
-                  <Shield size={16} className="text-foreground" />
+                <span className="font-semibold flex gap-2 mt-0.5 sm:mt-0 items-center tracking-tight text-foreground ">
+                  <Shield size={16} className="text-foreground " />
                   {certification.title}
                 </span>
               </div>
@@ -157,7 +156,7 @@ export function CertProgress(
 ) {
   return (
     <div>
-      <span className="absolute -top-5 right-1/2 sm:-top-8 translate-x-1/2 bg-primary-foreground text-foreground border-border border sm:relative pointer-events-none  transition-all duration-150  font-mono rounded-md text-xs flex gap-1.5 items-center px-2 py-0.5">
+      <span className="absolute -top-7 right-1/2 sm:-top-7 md:-top-9 translate-x-1/2 bg-primary-foreground text-foreground border-border border sm:relative pointer-events-none  transition-all duration-150  font-mono rounded-md text-xs flex gap-1.5 items-center px-2 py-0.5">
         <span
           className={`flex h-3 w-3 relative rounded-full z-20 ${
             getStatusColor(status)

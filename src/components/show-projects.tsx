@@ -9,7 +9,7 @@ const ShowProjects = () => {
     <article className="space-y-4 md:space-y-6 max-w-4xl mx-auto z-30 ">
       <h2>Featured Projects</h2>
       <div className="flex max-w-4xl relative p-2 rounded-lg transition duration-250 border-ring/10 border bg-card/50">
-        <div className="inset-0 absolute bg-accent/80 blur-3xl -z-10" />
+        <div className="inset-0 absolute bg-blue-900/50 blur-3xl -z-10 animate-pulse" />
         <ProjectGallery />
       </div>
       <div className="flex  items-center justify-center z-10 gap-2">

@@ -19,7 +19,7 @@ export default function Projects() {
         {/* Content section */}
         <section className="w-full flex justify-center prose dark:prose-invert lg:prose-lg min-h-[70dvh] pt-6 z-10">
           <div className="w-full xl:px-24 mx-auto">
-            <div className="flex max-w-4xl justify-center mx-auto">
+            <div className="flex max-w-4xl justify-center flex items-center">
               <div className="flex w-full flex-col">
                 <PageTitleAndReturnLink
                   href="/"

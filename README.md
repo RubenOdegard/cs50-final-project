@@ -12,15 +12,26 @@
 > submission.\
 > Check the **prelude** to see the actual domains.
 
+> A Dockerfile is included if you want to run in as a standalone app.\
+> Uncomment the line _**output: 'standalone',**_ in next.config.js.
+
+```
+$ docker build -t dev-port-docker .
+```
+
+```
+$ docker run -p 3000:3000 dev-port-docker
+```
+
 ## **Table of contents**
 
-- [**Prelude**]()
-- [**Thoughts - Pre Construction**]()
-  - [Strategy]()
-  - [Tech Stack]()
-  - [SEO]()
-- [**Project Walkthrough**]()
-- [**Reflection - Post Construction**]()
+- [**Prelude**](#prelude)
+- [**Thoughts - Pre Construction**](#thoughts---pre-construction)
+  - [Strategy](#strategy)
+  - [Tech Stack](#tech-stack)
+  - [SEO](#seo)
+- [**Project Walkthrough**](#project-walkthrough)
+- [**Reflection - Post Construction**](#reflection---post-construction)
 
 ## Prelude
 

@@ -88,7 +88,7 @@ const showcaseItems = [
 
 export default function ToolsShowcase() {
   return (
-    <div className="relative z-40 mb-2 mt-8">
+    <div className="relative z-40 mb-2 mt-8 ">
       <div className="border p-1.5 rounded-lg zoom grid grid-cols-4 sm:grid-cols-8 md:grid-cols-8 max-w-md gap-1 w-1/1">
         {showcaseItems.map((item, index) => (
           <div className={`relative z-30 ${item.styling}`} key={index + 1}>
@@ -97,7 +97,7 @@ export default function ToolsShowcase() {
         ))}
       </div>
 
-      <div className="absolute h-32 w-[400px] bg-accent/80 blur-3xl z-20 top-0 right-1/2 translate-x-1/2 " />
+      <div className="absolute h-32 w-[400px] bg-accent/80 blur-3xl z-20 top-0 right-1/2 translate-x-1/2" />
     </div>
   );
 }

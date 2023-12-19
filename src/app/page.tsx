@@ -6,12 +6,15 @@ import ShowPageHero from "@/components/show-page-hero";
 import ShowProjects from "@/components/show-projects";
 import { cn } from "@/lib/utils";
 
+import styles from "@/styles/card-glow";
+
 // TODO: Fill out project 1 information on project page.
 // TODO: Fix crop on project images, there is padding on the actual .png files
 // TODO: Add clickable links to Certifications
 // TODO: Add clickable links to Activities
 // TODO: Fix markdown icon.
 // TODO: Add "featured" badge on project page (need to change types and json data as well)
+// TODO: Fix height on statusbadges certifications
 
 export default function Home() {
   const sectionClasses = "w-full prose dark:prose-invert lg:prose-lg";
