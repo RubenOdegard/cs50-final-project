@@ -9,7 +9,8 @@ const ShowBackgroundHero = () => {
       {/* Rendering gradient background - top left side */}
       <div className="hidden lg:absolute top-0 left-0 h-[500px] w-[500px] blur-3xl bg-gradient-to-br from-emerald-900/10 via-emerald-900/10 to-background" />
 
-      {/* Rendering wavey lines in hero section */}
+      {
+        /* Rendering wavey lines in hero section
       <Image
         src="/images/line.svg"
         height={1920}
@@ -17,7 +18,8 @@ const ShowBackgroundHero = () => {
         alt="image of a lot of wavey lines"
         quality={30}
         className="absolute top-0 left-0 -z-10 opacity-20 w-full md:scale-100 h-[30dvh] md:h-[100dvh]"
-      />
+      />*/
+      }
     </>
   );
 };

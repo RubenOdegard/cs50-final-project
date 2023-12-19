@@ -6,13 +6,13 @@ import Link from "next/link";
 const ShowCertifications = () => {
   return (
     <article className="space-y-4 md:space-y-6">
-      <h2>Certifications</h2>
+      <h2 className="text-lg md:text-xl lg:text-2xl">Certifications</h2>
       <p className="text-muted-foreground">
         In the future, there are several courses and certifications that I have
         a particular interest in completing and delving into in my own time.
       </p>
 
-      <ul className="list-none mx-0 pt-2 md:pt-0  space-y-6 md:space-y-4">
+      <ul className="list-none mx-0 mt-4  space-y-4 md:px-4 md:pb-5 md:pt-3 md:bg-card md:border md:border-ring/10 md:rounded-lg">
         {certifications
           /* filter through and do not include school, as it is education and not certification.*/
           /* school should be changed to education. */

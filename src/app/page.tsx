@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 import styles from "@/styles/card-glow";
 
-// TODO: Fill out project 1 information on project page.
+// TODO: Projectgallery on main page needs to get info from config file. Add featured flag to projects
 // TODO: Fix crop on project images, there is padding on the actual .png files
 // TODO: Add clickable links to Certifications
 // TODO: Add clickable links to Activities
@@ -44,7 +44,7 @@ export default function Home() {
         <section
           className={cn(
             sectionClasses,
-            "max-w-2xl md:px-4 md:pb-6 md:shadow-xl md:bg-card md:border md:border-ring/10 md:rounded-lg",
+            "max-w-2xl ",
           )}
         >
           <ShowActivities />
@@ -53,7 +53,7 @@ export default function Home() {
         <section
           className={cn(
             sectionClasses,
-            "max-w-2xl md:px-4 md:pb-6 md:shadow-xl md:bg-card md:border md:border-ring/10 md:rounded-lg",
+            "max-w-2xl ",
           )}
         >
           <ShowCertifications />

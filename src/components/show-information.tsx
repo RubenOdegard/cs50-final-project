@@ -4,7 +4,7 @@ import ToolsShowcase from "./ui/tools-showcase";
 const ShowInformation = () => {
   return (
     <article className="col-span-4 ">
-      <h2 className="">Me, myself and I</h2>
+      <h2 className="text-lg md:text-xl lg:text-2xl">Me, myself and I</h2>
 
       <p className="text-muted-foreground">
         As a self-taught developer, I take a step into a new career field that

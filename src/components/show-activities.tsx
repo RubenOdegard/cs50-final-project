@@ -5,14 +5,16 @@ import Link from "next/link";
 
 const ShowActivities = () => {
   return (
-    <article className="space-y-4 md:space-y-6">
-      <h2>Activity Monitor & Planner</h2>
+    <article className="space-y-4 md:space-y-6 ">
+      <h2 className="text-lg md:text-xl lg:text-2xl">
+        Activity Monitor & Planner
+      </h2>
       <p className="text-muted-foreground">
         A quick overview of my current and upcoming activities, either recently
         completed, ongoing or planned for the near future.
       </p>
 
-      <ul className="list-none mx-0 mt-4 md:mt-6 space-y-4">
+      <ul className="list-none mx-0 mt-4  space-y-4 md:px-4 md:pb-5 md:pt-3 md:bg-card md:border md:border-ring/10 md:rounded-lg">
         {activity.map((
           {
             id,
