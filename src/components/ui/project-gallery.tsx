@@ -36,7 +36,7 @@ const ProjectGallery = () => {
               alt={project.title}
               width={1920}
               height={1080}
-              className="w-full h-full object-cover group-hover:scale-110 group-hover:grayscale transition-scale duration-500 ease-in-out"
+              className="w-full h-full object-cover scale-105 group-hover:scale-110 group-hover:grayscale transition-scale duration-500 ease-in-out"
             />
 
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/80 to-black opacity-100">

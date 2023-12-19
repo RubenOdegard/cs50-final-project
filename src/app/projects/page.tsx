@@ -18,7 +18,7 @@ export default function Projects() {
       <div className="flex justify-center space-y-16 md:space-y-24">
         {/* Content section */}
         <section className="w-full flex justify-center prose dark:prose-invert lg:prose-lg min-h-[70dvh] pt-6 z-10">
-          <div className="w-full xl:px-24 flex items-center flex-col">
+          <div className="w-full xl:px-24 mx-auto">
             <div className="flex max-w-4xl justify-center mx-auto">
               <div className="flex w-full flex-col">
                 <PageTitleAndReturnLink
@@ -50,7 +50,7 @@ export default function Projects() {
               </div>
             </div>
             {/* Rendering table of projects */}
-            <div className="max-w-7xl relative">
+            <div className="max-w-7xl relative mx-auto">
               <ProjectsTable />
             </div>
           </div>
