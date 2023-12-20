@@ -1,24 +1,10 @@
-{
-  /*
 export type TProject = {
   title: string;
   desc: string;
   year: string;
   content: string;
   hidden: boolean;
-  image: string;
-  link: string;
-  tags: string[];
-};
-  */
-}
-
-export type TProject = {
-  title: string;
-  desc: string;
-  year: string;
-  content: string;
-  hidden: boolean;
+  featured: boolean;
   image: string;
   live: string;
   link: string;
@@ -28,7 +14,7 @@ export type TProject = {
     desc: string[];
     mainSection: {
       title: string;
-      text: string[]; // Change from string to string[]
+      text: string[];
     };
     longSection: {
       title: string;

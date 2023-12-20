@@ -38,6 +38,21 @@ const getActivityStatusText = (startDate: string, endDate: string) => {
   }
 };
 
+const getActivityStatusClass = (startDate: string, endDate: string) => {
+  const status = getActivityStatusText(startDate, endDate);
+
+  switch (status) {
+    case "completed":
+      return "bg-green-500/10";
+    case "ongoing":
+      return "bg-yellow-500/10";
+    case "planned":
+      return "bg-red-500/10";
+    default:
+      return "";
+  }
+};
+
 {
   /* TODO: Add a modal for each table row, displays more information and links about the different activities. */
   // TODO: Add link on each row to the relevant course/activity
@@ -96,27 +111,15 @@ export default function Activities() {
                   {certifications.map((certification: TCertification) => (
                     <TableRow
                       key={certification.title}
-                      className="text-xs md:text-sm"
+                      className={`text-xs md:text-sm ${
+                        getActivityStatusClass(
+                          certification.startDate,
+                          certification.endDate,
+                        )
+                      }`}
                     >
                       <TableCell
-                        className={`capitalize ${
-                          getActivityStatusText(
-                              certification.startDate,
-                              certification.endDate,
-                            ) === "completed"
-                            ? "bg-green-500/10"
-                            : getActivityStatusText(
-                                certification.startDate,
-                                certification.endDate,
-                              ) === "ongoing"
-                            ? "bg-yellow-500/10"
-                            : getActivityStatusText(
-                                certification.startDate,
-                                certification.endDate,
-                              ) === "planned"
-                            ? "bg-red-500/10"
-                            : ""
-                        }`}
+                        className={"capitalize"}
                       >
                         {getActivityStatusText(
                             certification.startDate,

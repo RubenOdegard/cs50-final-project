@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "A collection of technical and developer relevant certifications either already complete or to be completed",
 };
 
-const getcertificationStatusText = (startDate: string, endDate: string) => {
+const getCertificationStatusText = (startDate: string, endDate: string) => {
   const certificationStatus = getActivityStatus(startDate, endDate);
 
   switch (certificationStatus) {
@@ -35,6 +35,21 @@ const getcertificationStatusText = (startDate: string, endDate: string) => {
       return "planned";
     default:
       return null;
+  }
+};
+
+const getCertificationStatusClass = (startDate: string, endDate: string) => {
+  const status = getCertificationStatusText(startDate, endDate);
+
+  switch (status) {
+    case "completed":
+      return "bg-green-500/10";
+    case "ongoing":
+      return "bg-yellow-500/10";
+    case "planned":
+      return "bg-red-500/10";
+    default:
+      return "";
   }
 };
 
@@ -102,33 +117,21 @@ export default function Certifications() {
                   ) => (
                     <TableRow
                       key={certification.title}
-                      className="text-xs md:text-sm"
+                      className={`text-xs md:text-sm ${
+                        getCertificationStatusClass(
+                          certification.startDate,
+                          certification.endDate,
+                        )
+                      }`}
                     >
                       <TableCell
-                        className={`capitalize ${
-                          getcertificationStatusText(
-                              certification.startDate,
-                              certification.endDate,
-                            ) === "completed"
-                            ? "bg-green-500/10"
-                            : getcertificationStatusText(
-                                certification.startDate,
-                                certification.endDate,
-                              ) === "ongoing"
-                            ? "bg-yellow-500/10"
-                            : getcertificationStatusText(
-                                certification.startDate,
-                                certification.endDate,
-                              ) === "planned"
-                            ? "bg-red-500/10"
-                            : ""
-                        }`}
+                        className={"capitalize"}
                       >
-                        {getcertificationStatusText(
+                        {getCertificationStatusText(
                             certification.startDate,
                             certification.endDate,
                           ) !== null
-                          ? getcertificationStatusText(
+                          ? getCertificationStatusText(
                             certification.startDate,
                             certification.endDate,
                           )
@@ -143,7 +146,7 @@ export default function Certifications() {
                         {certification.type}
                       </TableCell>
                       <TableCell className="hidden md:table-cell">
-                        {getcertificationStatusText(
+                        {getCertificationStatusText(
                             certification.startDate,
                             certification.endDate,
                           ) !== null

@@ -15,11 +15,8 @@
 > A Dockerfile is included if you want to run in as a standalone app.\
 > Uncomment the line _**output: 'standalone',**_ in next.config.js.
 
-```
+```bash
 $ docker build -t dev-port-docker .
-```
-
-```
 $ docker run -p 3000:3000 dev-port-docker
 ```
 
@@ -137,6 +134,13 @@ across the whole website and takes children as props. In this case, the children
 are the rest of the content on the website, where the content might change on
 navigation, but the layout persists.
 
+How can i create a graph or visual table to represent this?
+
+The navigation and footer are separated into a layout file, which persists
+across the whole website and takes children as props. In this case, the children
+are the rest of the content on the website, where the content might change on
+navigation, but the layout persists.
+
 **Navigation**
 
 The navigation is divided into two, one for mobile and one for larger screens.
@@ -152,27 +156,32 @@ both components.
 **Footer**\
 ![Footer](https://gcdnb.pbrd.co/images/WH4cgwmLbSTq.png?o=1)
 
-**Walkthrough of the main page**
+## Walkthrough of the Main Page
 
-    - Hero
-    - Featured projects > CTA > Projects page
-    - Me, myself and I
-    - Activity monitor & planner > CTA > Activities page
-    - Certifications > CTA > Certifications page
+- **Hero**
+- **Featured Projects**
+  - CTA (Call to Action): View Projects Page
+- **Me, Myself and I**
+- **Activity Monitor & Planner**
+  - CTA: View Activities Page
+- **Certifications**
+  - CTA: View Certifications Page
 
-Each individual page apart from the main page is an extension of what's already
-shown on the main page. As of writing this, I'm using tables to display the
-contents on each page and giving more details using modals. I expect to be
-making, for example, each project its own page so that the search engines can
-crawl better through my website, and not just use modals and Github/live links
-to display details.
+Each individual page, apart from the main page, is an extension of what's
+already shown on the main page. As of writing this, tables are used to display
+the contents on each page, with more details provided using modals. Future plans
+include creating separate pages for each project to enhance search engine
+crawlability and avoid reliance on modals and Github/live links for displaying
+details.
 
-Featured projects is an individual component in which I manually have to add
-projects to be displayed on the front page. The activity monitor and
-certifications differ from this approach as it grabs data from the config file
-and maps over the data to display it. On the front page, there is a cap on how
-many items it can render, while on the "main" page for, e.g., Certifications the
-render limit is non-existent.
+- **Featured Projects:**
+  - An individual component where projects are manually added for display on the
+    front page.
+- **Activity Monitor and Certifications:**
+  - Differ from the Featured Projects approach as they grab data from the config
+    file and map over the data to display it.
+  - On the front page, there is a cap on how many items it can render, while on
+    the "main" page for Certifications, the render limit is non-existent.
 
 **Hero**
 
@@ -236,9 +245,11 @@ accordingly. **Here are some of the SEO components:** _opengraph-image.png_,
 _robots.ts_, _sitemap.ts_.
 
 Together with for example semantic html, aria-labels for buttons and titles for
-svgs the website does well on Lighthouse.
+svgs the website does well on Lighthouse. The 4 points missing from
+Accessibility is two overlapping buttons for disabled features which will be
+removed when the feature is implemented.
 
-![Lighthouse-score](https://gcdnb.pbrd.co/images/feqvxIN4j9Yp.png?o=1)
+![Lighthouse-score](https://gcdnb.pbrd.co/images/erlKMbEx6EwT.png?o=1)
 
 Now, you can either look at the version of this website the moment is was
 submitted, or you can view the live version which is subject to updates and
@@ -300,13 +311,22 @@ be updated shortly.
 
 ---
 
+**Bigger implementasions to be done:**
+([Implementations on live site, not the project submission](https://github.com/replace-with-github-link))
+
+- Nextjs i18n (internationalization)
+- Umami Analytics (open source alternative to google analytics)
+- Code refactoring, correctly split up components by the single reponsibility
+  principle.
+- Visual overhaul on certain elements.
+
 As of writing this I am done with the project for the course submission, but I
 do not consider myself completely satisfied. This is a project that will
 continue to live on and get regular updates. That's until I scrap the project
 and start over.
 
-All in all, a good learning experience and a great website to futher build on to
-advance my transition into a new and exciting career.
+All in all, a good learning experience. I now have a great website to build
+futher on to advance my transition into a new and exciting career.
 
 \- Ruben
 

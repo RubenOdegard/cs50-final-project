@@ -1,8 +1,9 @@
-import PageTitleAndReturnLink from "@/components/ui/back-to-home-link";
-import Link from "next/link";
-import ProjectsTable from "@/components/ui/projects-table";
 import RenderBackgroundColors from "@/components/render-background-colors";
+import PageTitleAndReturnLink from "@/components/ui/back-to-home-link";
+import ProjectsTable from "@/components/ui/projects-table";
+import { PictureInPicture } from "lucide-react";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -18,7 +19,7 @@ export default function Projects() {
       <div className="flex justify-center space-y-16 md:space-y-24">
         {/* Content section */}
         <section className="w-full flex justify-center prose dark:prose-invert lg:prose-lg min-h-[70dvh] pt-6 z-10">
-          <div className="w-full xl:px-24 mx-auto">
+          <div className="w-full 3xl:px-24 mx-auto">
             <div className="flex max-w-4xl justify-center mx-auto">
               <div className="flex w-full flex-col">
                 <PageTitleAndReturnLink
@@ -43,7 +44,15 @@ export default function Projects() {
                 </p>
 
                 <p className="text-sm pt-0 mt-4 md:mt-2">
-                  Click <b>show more</b>{" "}
+                  Click
+                  <span className="hidden md:inline font-semibold">
+                    {" "}
+                    Show more{" "}
+                  </span>
+                  <span className="md:hidden inline-block px-2">
+                    <PictureInPicture size={16} />
+                  </span>
+                  or{"  "}
                   to open a modal and display more in dept information about a
                   project.
                 </p>

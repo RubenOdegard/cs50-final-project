@@ -22,16 +22,22 @@ const GithubLinkButton = ({ href, variant }: TGithubLinkButton) => {
         variant={variant}
         size="sm"
         className="text-xs sm:text-sm"
+        aria-label="github icon"
         disabled
       >
-        <EyeIcon size={14} />
+        <Github size={14} />
       </Button>
     );
   }
 
   return (
-    <Link href={validHref} target="_blank">
-      <Button variant={variant} size="sm" className="text-xs sm:text-sm">
+    <Link href={validHref} target="_blank" title="view github page">
+      <Button
+        variant={variant}
+        size="sm"
+        className="text-xs sm:text-sm"
+        aria-label="github icon"
+      >
         <Github size={14} />
       </Button>
     </Link>

@@ -14,6 +14,7 @@ import { Badge } from "./badge";
 import { Button } from "./button";
 import GithubLinkButton from "./github-link-button";
 import LivePreviewButton from "./live-preview-button";
+import { PictureInPicture } from "lucide-react";
 
 interface ShowProjectDetailsProps {
   data: TProject;
@@ -29,10 +30,13 @@ export default function ShowProjectDetails({ data }: ShowProjectDetailsProps) {
           size="sm"
           className="text-xs md:text-sm"
         >
-          Show more
+          <span className="hidden md:inline">Show more</span>
+          <span className="md:hidden">
+            <PictureInPicture size={16} />
+          </span>
         </Button>
       </DialogTrigger>
-      <DialogContent className="w-full flex flex-col gap-y-6 py-6 max-w-7xl max-h-[80vh] overflow-scroll ">
+      <DialogContent className="w-full flex flex-col gap-y-12 p-8 md:py-12 md:px-12 max-w-7xl max-h-[80vh] overflow-scroll ">
         <DialogHeader>
           <div className="grid grid-cols-6 gap-8  rounded-md">
             <div className="col-span-6 lg:col-span-3">
@@ -68,8 +72,8 @@ export default function ShowProjectDetails({ data }: ShowProjectDetailsProps) {
             </div>
           </div>
         </DialogHeader>
-        <div className="grid grid-cols-6 gap-x-8 gap-y-8">
-          <div className="flex flex-col space-x-2 col-span-6 lg:col-span-4">
+        <div className="grid grid-cols-6 gap-x-8 gap-y-4 -mt-8 lg:mt-0">
+          <div className="flex flex-col space-x-2 col-span-6 lg:col-span-4 mt-8 lg:mt-0">
             <h3>{data.showcase.mainSection.title}</h3>
             <p className="text-muted-foreground text-sm md:text-base">
               {data.showcase.mainSection.text.map((content, index) => {
@@ -77,16 +81,15 @@ export default function ShowProjectDetails({ data }: ShowProjectDetailsProps) {
               })}
             </p>
           </div>
-          <div className="flex flex-col space-x-2  col-span-6 lg:col-span-2 order-first lg:order-last">
+          <div className="flex flex-col space-x-2 col-span-6 lg:col-span-2 order-first lg:order-last">
             <h3>Tags</h3>
-            <p className="text-muted-foreground gap-4 flex flex-wrap mt-6">
+            <p className="text-muted-foreground gap-4 flex flex-wrap lg:mt-6 mt-4">
               {data.showcase.tags.map((tag) => {
                 return <Badge key={`badge-${tag}`}>{tag}</Badge>;
               })}
             </p>
           </div>
         </div>
-        <div className="flex-grow h-[1px] w-full dark:bg-gray-800/50 bg-gray-100 col-span-6" />
         <div className="flex flex-col col-span-6 ">
           <h3>{data.showcase.longSection.title}</h3>
           <p className="text-muted-foreground text-sm md:text-base ml-[8px]">
@@ -181,7 +184,7 @@ export default function ShowProjectDetails({ data }: ShowProjectDetailsProps) {
 
         <DialogFooter className="sm:justify-start col-span-6">
           <DialogClose asChild>
-            <Button aria-label="close dialog" type="button" variant="secondary">
+            <Button aria-label="close dialog" type="button" variant="default">
               Close
             </Button>
           </DialogClose>

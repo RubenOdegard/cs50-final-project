@@ -23,7 +23,7 @@ const ProjectsTable = () => {
             <TableRow>
               <TableHead>Details</TableHead>
               <TableHead>Title</TableHead>
-              <TableHead className="hidden lg:table-cell">Desc</TableHead>
+              <TableHead className="hidden md:table-cell">Desc</TableHead>
               <TableHead>Source</TableHead>
               <TableHead className="hidden lg:table-cell">Year</TableHead>
               <TableHead className="hidden lg:table-cell">Tags</TableHead>
@@ -43,7 +43,7 @@ const ProjectsTable = () => {
                     <TableCell className="text-xs sm:text-sm">
                       {project.title}
                     </TableCell>
-                    <TableCell className="hidden lg:table-cell">
+                    <TableCell className="hidden md:table-cell">
                       {project.desc}
                     </TableCell>
                     <TableCell>

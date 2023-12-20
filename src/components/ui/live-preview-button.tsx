@@ -22,6 +22,7 @@ const LivePreviewButton = ({ href, variant }: TLivePreviewButton) => {
         variant={variant}
         size="sm"
         className="text-xs sm:text-sm"
+        aria-label="linedin icon"
         disabled
       >
         <EyeIcon size={14} />
@@ -30,8 +31,13 @@ const LivePreviewButton = ({ href, variant }: TLivePreviewButton) => {
   }
 
   return (
-    <Link href={validHref} target="_blank">
-      <Button variant={variant} size="sm" className="text-xs sm:text-sm">
+    <Link href={validHref} target="_blank" title="view live page">
+      <Button
+        variant={variant}
+        size="sm"
+        className="text-xs sm:text-sm"
+        aria-label="linkedin icon"
+      >
         <EyeIcon size={14} />
       </Button>
     </Link>

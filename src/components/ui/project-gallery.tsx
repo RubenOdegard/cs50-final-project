@@ -9,7 +9,17 @@ const projects = [
     title: "Developer Portfolio",
     description:
       "Personal developer portfolio for the final project in Harvard´s CS50x course.",
-    imageUrl: "/images/project-1.png",
+    imageUrl: "/images/p1/hero.jpg",
+    href: "/project1",
+    github: "",
+    live: "",
+  },
+  {
+    id: 1,
+    title: "Developer Portfolio",
+    description:
+      "Personal developer portfolio for the final project in Harvard´s CS50x course.",
+    imageUrl: "/images/p1/hero.jpg",
     href: "/project1",
     github: "",
     live: "",
@@ -17,7 +27,6 @@ const projects = [
 ];
 
 // TODO: Change project data to come from site config.
-// TODO: Add buttonf for github and live view.
 
 const ProjectGallery = () => {
   return (
@@ -36,7 +45,9 @@ const ProjectGallery = () => {
               alt={project.title}
               width={1920}
               height={1080}
-              className="w-full h-full object-cover  group-hover:scale-110 group-hover:grayscale transition-scale duration-500 ease-in-out"
+              quality={50}
+              priority={true}
+              className="w-full h-full object-cover "
             />
 
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/80 to-black opacity-100">
