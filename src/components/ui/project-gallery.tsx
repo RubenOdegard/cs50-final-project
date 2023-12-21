@@ -14,26 +14,13 @@ const projects = [
     github: "",
     live: "",
   },
-  {
-    id: 1,
-    title: "Developer Portfolio",
-    description:
-      "Personal developer portfolio for the final project in Harvard´s CS50x course.",
-    imageUrl: "/images/p1/hero.jpg",
-    href: "/project1",
-    github: "",
-    live: "",
-  },
 ];
 
 // TODO: Change project data to come from site config.
 
 const ProjectGallery = () => {
   return (
-    <div
-      className="flex overflow-x-scroll snap snap-x snap-mandatory transition-all duration-250 ease-in-out rounded-md group"
-      style={{ scrollbarWidth: "thin" }}
-    >
+    <div className="flex overflow-x-auto snap snap-x snap-mandatory transition-all duration-250 ease-in-out rounded-md group">
       {projects.map((project, index) => (
         <div
           key={project.id}
@@ -72,7 +59,7 @@ const ProjectGallery = () => {
               </div>
             </div>
           </div>
-          <div className="absolute top-2 right-2 text-xs text-foreground bg-card/50 px-1.5 py-0.5 rounded-md">
+          <div className="absolute top-2 right-2 text-xs text-foreground bg-card/50 border border-ring/10 px-1.5 py-0.5 rounded-md">
             {index + 1}/{projects.length}
           </div>
         </div>
