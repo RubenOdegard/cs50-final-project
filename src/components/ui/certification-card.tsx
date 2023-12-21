@@ -124,7 +124,7 @@ export default function CertificationCard(
                           className="mb-0 w-1/2"
                         >
                           <Link
-                            href={"/"}
+                            href={certification.cert!}
                             target="_blank"
                             className="no-underline group"
                           >

@@ -72,11 +72,12 @@ export const certificationsShowMax = 3;
 export const certifications = [
   {
     title: "CS50x - Introduction to Computer Science",
-    status: 1,
+    status: 0,
     expandable: 1,
     school: 1,
     link: "https://pll.harvard.edu/course/cs50-introduction-computer-science",
-    certification: "",
+    certification:
+      "https://certificates.cs50.io/29dbe20a-aaab-4cc0-8d03-9c9bb90acce2.png?size=letter",
     place: "Harvard",
     type: "Online Course",
     startDate: "2023/09/01",

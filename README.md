@@ -1,6 +1,6 @@
 # CS50 Final Project - Developer Portfolio
 
-#### Video Demo: [URL HERE]
+#### Video Demo: [https://www.youtube.com/watch?v=vHDtc7NXBS4](https://www.youtube.com/watch?v=vHDtc7NXBS4)
 
 #### Description:
 
@@ -319,6 +319,7 @@ be updated shortly.
 - Code refactoring, correctly split up components by the single reponsibility
   principle.
 - Visual overhaul on certain elements.
+- E2E tests using Cypress.
 
 As of writing this I am done with the project for the course submission, but I
 do not consider myself completely satisfied. This is a project that will
