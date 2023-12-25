@@ -1,8 +1,8 @@
-### GO TO UPDATED GITHUB REPO - [RBY - Developer Portfolio](https://github.com/RubenOdegard/rby)
+# GO TO UPDATED GITHUB REPO - [RBY - Developer Portfolio](https://github.com/RubenOdegard/rby)
 
 ---
 
-### VIEW HOSTED VERSION OF THIS REPO (not updated) - [CS50x Final Project Submission](cs50-final-project-umber.vercel.app)
+## VIEW HOSTED VERSION OF THIS REPO (not updated) - [CS50x Final Project Submission](cs50-final-project-umber.vercel.app)
 
 ---
 
