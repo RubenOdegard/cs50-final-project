@@ -7,9 +7,8 @@
 ---
 
 ### GO TO UPDATED GITHUB REPO [Updated Developer Portfolio](https://github.com/RubenOdegard/rby)
-### THIS VERSION IS CONTINUOUSLY UPDATED.
 
-[View hosted version of this repo - not updated post project submission](cs50-final-project-umber.vercel.app)
+### [VIEW HOSTED VERSION OF CURRENT REPO - not updated post project submission](cs50-final-project-umber.vercel.app)
 
 > A maintained version of this website will be hosted on 3 domains post
 > submission.\
