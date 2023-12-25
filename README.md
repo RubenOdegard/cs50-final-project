@@ -6,7 +6,7 @@
 
 ---
 
-### GO TO UPDATED GITHUB REPO [Updated Developer Portfolio](https://github.com/RubenOdegard/rby)
+### GO TO UPDATED GITHUB REPO - [RBY - Developer Portfolio](https://github.com/RubenOdegard/rby)
 
 ---
 
