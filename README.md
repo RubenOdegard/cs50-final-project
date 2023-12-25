@@ -1,16 +1,16 @@
-# CS50 Final Project - Developer Portfolio
-
-#### Video Demo: [https://www.youtube.com/watch?v=vHDtc7NXBS4](https://www.youtube.com/watch?v=vHDtc7NXBS4)
-
-#### Description:
-
----
-
 ### GO TO UPDATED GITHUB REPO - [RBY - Developer Portfolio](https://github.com/RubenOdegard/rby)
 
 ---
 
 ### [VIEW HOSTED VERSION OF THIS REPO - not updated](cs50-final-project-umber.vercel.app)
+
+---
+
+# CS50 Final Project - Developer Portfolio
+
+#### Video Demo: [https://www.youtube.com/watch?v=vHDtc7NXBS4](https://www.youtube.com/watch?v=vHDtc7NXBS4)
+
+#### Description:
 
 ---
 
