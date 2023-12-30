@@ -314,7 +314,7 @@ be updated shortly.
 ---
 
 **Bigger implementasions to be done:**
-([Implementations on live site, not the project submission](https://github.com/replace-with-github-link))
+[Implementations on live site, not the project submission](https://github.com/RubenOdegard/rby)
 
 - Nextjs i18n (internationalization)
 - Umami Analytics (open source alternative to google analytics)
