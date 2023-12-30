@@ -258,7 +258,7 @@ submitted, or you can view the live version which is subject to updates and
 revisions.
 
 Submission: [view website](https://cs50-final-project-umber.vercel.app)\
-Live: [view live website](/)
+Live: [view live website](https://rubenodegard.com)
 
 ---
 
