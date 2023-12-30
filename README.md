@@ -1,8 +1,14 @@
-# CS50 Final Project - Developer Portfolio
+# GO TO UPDATED GITHUB REPO - [RBY - Developer Portfolio](https://github.com/RubenOdegard/rby)
 
 ---
 
-[View hosted version - not updated post submission](cs50-final-project-umber.vercel.app)
+## VIEW HOSTED VERSION OF THIS REPO (not updated) - [CS50x Final Project Submission](cs50-final-project-umber.vercel.app)
+
+---
+
+# CS50 Final Project - Developer Portfolio
+
+---
 
 > A maintained version of this website will be hosted on 3 domains post
 > submission.\
