@@ -1,9 +1,5 @@
 # CS50 Final Project - Developer Portfolio
 
-#### Video Demo: [https://www.youtube.com/watch?v=vHDtc7NXBS4](https://www.youtube.com/watch?v=vHDtc7NXBS4)
-
-#### Description:
-
 ---
 
 [View hosted version - not updated post submission](cs50-final-project-umber.vercel.app)
