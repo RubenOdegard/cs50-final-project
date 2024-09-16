@@ -3,7 +3,6 @@
 ---
 
 ### VIEW HOSTED VERSION OF THIS REPO (not updated) - [CS50x Final Project Submission](cs50-final-project-umber.vercel.app)
-(Im currently moving all of my projects from Vercel to a VPS for self hosting. Status: NOT ONLINE)
 ---
 
 # CS50 Final Project - Developer Portfolio
