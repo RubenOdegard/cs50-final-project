@@ -1,9 +1,4 @@
-### Maintained version - [RBY - Developer Portfolio](https://github.com/RubenOdegard/rby)
-
----
-
-### VIEW HOSTED VERSION OF THIS REPO (not updated) - [CS50x Final Project Submission](cs50-final-project-umber.vercel.app)
----
+### Maintained version founed here: [RBY - Developer Portfolio](https://github.com/RubenOdegard/rby)
 
 # CS50 Final Project - Developer Portfolio
 
